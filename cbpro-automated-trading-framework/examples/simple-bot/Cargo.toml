@@ -1,0 +1,14 @@
+[package]
+name = "simple-bot"
+version = "0.1.0"
+authors = ["Ben McCormick <benmcc100@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+coinbase-pro-api-rust = { path = "../../../coinbase-pro-api-rust" }
+cbpro-automated-trading-framework = { path = "../../../cbpro-automated-trading-framework" }
+tokio = { version = "1", features = ["full"] }
+rust_decimal = "1.14"
+rust_decimal_macros = "1.14"
